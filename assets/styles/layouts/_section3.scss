@@ -1,0 +1,36 @@
+.section3 {
+  padding: 100px 15px 65px;
+  color: $white;
+
+  .form-content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 1050px;
+    margin: 0 auto;
+
+    .hours {
+      padding: 24px;
+      background: black;
+      .hours-content {
+        border: 1px dashed $grey;
+        padding: 20px 0;
+
+        h3 {
+          font-family: $font1;
+          font-size: 2.5rem;
+          font-weight: 100;
+          color: $color1;
+        }
+        h4 {
+          font-family: $font2;
+          margin-top: -16px;
+          letter-spacing: 2px;
+          font-size: 1.3rem;
+        }
+        img {
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+}
