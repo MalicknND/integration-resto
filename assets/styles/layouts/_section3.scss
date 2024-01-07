@@ -30,6 +30,18 @@
         img {
           margin-top: 25px;
         }
+
+        h5 {
+          text-transform: uppercase;
+          color: $color1;
+          font-family: $font2;
+          font-weight: 100;
+          font-size: 1.1rem;
+          margin: 38px 0 12px;
+        }
+        p {
+          font-size: 0.85rem;
+        }
       }
     }
   }

@@ -257,4 +257,15 @@ header .header-text div h6 {
 }
 .section3 .form-content .hours .hours-content img {
   margin-top: 25px;
+}
+.section3 .form-content .hours .hours-content h5 {
+  text-transform: uppercase;
+  color: rgb(166, 114, 69);
+  font-family: Poppins, serif;
+  font-weight: 100;
+  font-size: 1.1rem;
+  margin: 38px 0 12px;
+}
+.section3 .form-content .hours .hours-content p {
+  font-size: 0.85rem;
 }/*# sourceMappingURL=index.css.map */
