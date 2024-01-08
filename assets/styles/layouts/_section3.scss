@@ -7,6 +7,7 @@
     grid-template-columns: 30% 70%;
     max-width: 1050px;
     margin: 0 auto;
+    background: $white;
 
     .hours {
       padding: 24px;
@@ -41,6 +42,40 @@
         }
         p {
           font-size: 0.85rem;
+        }
+      }
+    }
+    .form-infos {
+      @include childCenter;
+      padding: 30px 0;
+
+      h2 {
+        font-family: $font1;
+        font-size: 2.5rem;
+        font-weight: 100;
+        color: $color1;
+      }
+      h3 {
+        color: $black;
+        margin-top: -18px;
+        font-family: $font2;
+        font-size: 1.8rem;
+      }
+
+      img {
+        height: 25px;
+        width: 25px;
+      }
+      .form-inputs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 30px;
+        // > * {} va cibler tous les enfants de .form-inputs
+
+        > * {
+          padding: 10px 0;
+          margin: 10px;
+          background: none;
         }
       }
     }
