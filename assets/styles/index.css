@@ -301,4 +301,21 @@ header .header-text div h6 {
   padding: 10px 0;
   margin: 10px;
   background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+.section3 .form-content .form-infos button {
+  border: none;
+  border-radius: 50px;
+  background: #21201e;
+  color: #eee;
+  padding: 16px 34px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.section3 .form-content .form-infos button:hover {
+  transform: translate(3px);
 }/*# sourceMappingURL=index.css.map */
